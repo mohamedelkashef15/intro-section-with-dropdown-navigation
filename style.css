@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+:root {
+  --med-white: hsl(0, 0%, 98%);
+  --med-gray: hsl(0, 0%, 41%);
+  --med-black: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  background-color: var(--med-white);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Header Start */
+#header nav {
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header nav ul a {
+  margin: 0 30px;
+  color: var(--med-gray);
+}
+
+#header nav ul .hero {
+  font-size: 24px;
+  color: var(--med-black);
+  font-weight: 700;
+  margin-right: 40px;
+}
+
+/* inner list 1 */
+.inner-list-1 {
+  display: none;
+}
+
+#header nav ul li:hover .inner-list-1 {
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 130px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#header nav ul li:hover .inner-list-1 ul,
+#header nav ul li:hover .inner-list-2 ul {
+  display: block;
+}
+
+#header nav ul li:hover .inner-list-1 ul li,
+#header nav ul li:hover .inner-list-2 ul li {
+  margin: 10px 0;
+}
+
+#header nav ul li:hover .inner-list-1 ul li a,
+#header nav ul li:hover .inner-list-2 ul li a {
+  margin: 0;
+}
+
+#header nav ul li:hover .inner-list-1 img {
+  margin-right: 10px;
+}
+
+/* inner list 2 */
+.inner-list-2 {
+  display: none;
+}
+
+#header nav ul li:hover .inner-list-2 {
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 330px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#header nav ul .btn {
+  border: 1px solid var(--med-gray);
+  padding: 12px 20px;
+  border-radius: 12px;
+}
+
+#header nav ul .btn:hover {
+  border: 1px solid var(--med-black);
+  color: var(--med-black);
+}
+
+#header nav ul .main-list:hover>a {
+  color: var(--med-black);
+}
+
+/* 
+#header nav .main-list a {
+  margin: 0 30px;
+  color: var(--med-gray);
+}
+
+#header nav ul .hero {
+  font-size: 24px;
+  color: var(--med-black);
+  font-weight: 700;
+  margin-right: 40px;
+}
+
+#header nav ul .btn {
+  border: 1px solid var(--med-gray);
+  padding: 12px 20px;
+  border-radius: 12px;
+}
+
+#header nav .main-list li .inner-list-1 {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 130px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#header nav ul li .inner-list-2 {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 310px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#header nav .main-list .features:hover .inner-list-1,
+#header nav .main-list .company:hover .inner-list-2 {
+  display: block;
+}
+
+#header nav .main-list li .inner-list-1 li,
+#header nav .main-list li .inner-list-2 li {
+  margin: 10px 0;
+  transition: all 0.2s ease;
+}
+
+#header nav .main-list li .inner-list-1 li img {
+  margin-right: 10px;
+}
+
+#header nav .main-list li .inner-list-1 li a,
+#header nav .main-list li .inner-list-2 li a {
+  margin: 10px 0;
+}
+ */
+
+/* Header End */
